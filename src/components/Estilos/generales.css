@@ -1,0 +1,118 @@
+ion-toast.alert-toast {
+    --background: #ea2e47;
+    --box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2);
+    --color: #fff;
+  }
+  
+  ion-toast.info-toast {
+    --background: #ffc409;
+    --box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2);
+    --color: #fff;
+  }
+  
+  ion-toast.success-toast {
+    --background: #0d8c5d;
+    --box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2);
+    --color: #fff;
+  }
+  
+  ion-button {
+    --padding-top: 22px;
+    --padding-bottom: 22px;
+  }
+  
+  ion-button.margin-button {
+    margin: 25px 0 !important;
+  }
+  
+  ion-item {
+    --background: transparent;
+  }
+  
+  ion-footer {
+    background-color: transparent;
+    color: #555;
+  }
+  
+  ion-content {
+    --background: #efefef;
+  }
+  
+  ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  
+  #bg {
+    background: url("../../public/assets/images/particulas.png") no-repeat center/cover fixed;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  #headerimg {
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .input-margin {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(109, 106, 106, 0.644);
+    ;
+  }
+  
+  .card-content-md {
+    line-height: inherit;
+  }
+  
+  .blur-component {
+    background: rgba(255, 255, 255, 0.85);
+    /* -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
+  }
+  
+  .check-toogle {
+    margin-left: auto;
+    margin-top: 10%;
+    width: 65%;
+  }
+  
+  .action-sheet-cancel {
+    background-color: #ea2e47 !important;
+    color: #fff !important;
+  }
+  
+  .action-sheet-cancel .action-sheet-icon {
+    color: #fff;
+  }
+  
+  .action-sheet-title {
+    color: #025436 !important;
+    font-weight: 700;
+  }
+  
+  .action-sheet-sub-title {
+    color: #ed6c25 !important;
+    font-weight: 400;
+  }
+  
+  .ion-bold {
+    font-weight: 600 !important;
+  }
+  
+  @media (max-width: 576px) {
+    #min-toprow {
+      margin-top: 38%;
+    }
+  
+    #max-toprow {
+      margin-top: 60%;
+    }
+  }

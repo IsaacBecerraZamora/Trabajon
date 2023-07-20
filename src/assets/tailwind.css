@@ -1,0 +1,66 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+#bg {
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+  }
+
+  #logoEmpresa {
+    width: 69%;
+    margin: auto;
+    margin-top: -20px;
+    opacity:1;
+  }
+
+  .contenedor {
+    position: relative;
+  }
+  
+  .prueba {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.89;
+    border-radius: 10px;
+    margin: -50px 25px 0 25px; 
+  }
+
+  #simplelinear {
+    position: relative;
+    opacity:0.89;
+    background: linear-gradient(#1a6735,#1a6735, #1a6735,white);
+  }
+
+  #boton-re{
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #ed6c25;
+    font-family: "Roboto Condensed", sans-serif !important;
+    opacity:1;
+    margin-top: 20px;
+    
+  }
+
+  #letter{
+    font-size: 14px;
+    font-family: "Roboto Condensed", sans-serif !important;
+  }
+
+  #imgperfil{
+    width: 70%;
+    height: 100%;
+    border-radius: 18px;
+    margin: auto;
+    opacity:10;
+  }
+
+  #pantalla{
+    border-radius: 18px;
+  }
+ 
+  
